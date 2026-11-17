@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "splitBill": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "participants": {
+          "type": "array"
+        }
+      },
+      "required": ["id", "title", "participants"]
+    }
+  },
+  "required": ["splitBill"]
+}

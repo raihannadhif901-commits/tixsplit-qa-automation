@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TixSplit Automation Master Suite">
+
+    <!-- ADVANCED: Mendaftarkan Listener Screenshot Otomatis -->
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="API Comprehensive Suite">
+        <classes>
+            <class name="tests.api.AuthApiTest"/>
+            <class name="tests.api.SplitBillApiTest"/>
+            <class name="tests.api.EventApiTest"/>
+            <class name="tests.api.CommunityApiTest"/>
+            <class name="tests.api.NotificationApiTest"/>
+            <class name="tests.api.BookingApiTest"/>
+        </classes>
+    </test>
+
+    <test name="UI E2E Suite">
+        <classes>
+            <class name="tests.ui.LoginUiTest"/>
+            <class name="tests.ui.SplitBillUiTest"/>
+            <class name="tests.ui.EventUiTest"/>
+            <class name="tests.ui.CommunityUiTest"/>
+        </classes>
+    </test>
+
+</suite>

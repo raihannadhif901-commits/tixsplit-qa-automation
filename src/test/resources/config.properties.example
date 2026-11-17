@@ -1,0 +1,5 @@
+baseUrl=https://tixsplit.dibimbing.id
+userEmail=user@mail.com
+userPassword=Password123!
+browser=chrome
+timeout=10

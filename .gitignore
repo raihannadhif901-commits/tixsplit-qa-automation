@@ -1,0 +1,17 @@
+# Folder kompilasi Maven & laporan sementara
+target/
+test-output/
+
+# File konfigurasi lokal IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# File kredensial lokal (yang di-push cukup config.properties.example)
+src/test/resources/config.properties
+
+# File log sistem & OS
+*.log
+.DS_Store
+Thumbs.db
